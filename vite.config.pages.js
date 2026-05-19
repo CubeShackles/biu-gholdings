@@ -15,7 +15,7 @@ export default defineConfig({
     plugins: [react(), tailwindcss()],
     define: {
         'import.meta.env.VITE_STATIC_SITE': JSON.stringify('true'),
-        'import.meta.env.VITE_APP_NAME': JSON.stringify('Biu-g Holdings LLC'),
+        'import.meta.env.VITE_APP_NAME': JSON.stringify('Biu-g Holdings'),
     },
     build: {
         outDir: 'dist-pages',

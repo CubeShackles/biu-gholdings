@@ -74,8 +74,9 @@ export default function MainLayout({ title, children }) {
             <footer className="mt-auto border-t border-zinc-200 bg-white">
                 <div className="mx-auto max-w-6xl px-4 py-4 text-xs text-zinc-500">
                     <span>
-                        © {new Date().getFullYear()} Biu-g Holdings LLC.{' '}
-                        {isPt ? 'Todos os direitos reservados.' : 'All rights reserved.'}
+                        {isPt
+                            ? '© 2026 Biu-g Holdings. Todos os direitos reservados.'
+                            : '© 2026 Biu-g Holdings. All rights reserved.'}
                     </span>
                 </div>
             </footer>
