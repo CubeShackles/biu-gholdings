@@ -1,7 +1,8 @@
 import ExternalLink from '@/Components/ExternalLink';
+import { CONTROLLED_EXTERNAL_LINKS } from '@/lib/controlledExternalLinks';
 
-export const ACADEMY_NAME = 'BIU.G Academy';
-export const ACADEMY_URL = 'https://biugacademy.org';
+export const ACADEMY_NAME = CONTROLLED_EXTERNAL_LINKS.academy.name;
+export const ACADEMY_URL = CONTROLLED_EXTERNAL_LINKS.academy.href;
 
 export default function AcademyLink({ children = ACADEMY_NAME, className = '' }) {
     return (
