@@ -18,7 +18,7 @@ const clusters = [
                 type: 'Operadora Nacional',
                 status: 'formation',
                 description:
-                    'Sociedade operacional em Angola que localiza a infraestrutura CubeShackles para plataformas nacionais, alinhamento regulatório e parcerias institucionais.',
+                    'Sociedade operacional nacional que localiza a CubeShackles para plataformas nacionais, alinhamento regulatório e parcerias reguladas.',
             },
             {
                 name: 'National Data Platform',
@@ -70,14 +70,14 @@ const clusters = [
                 type: 'Trading & Capital',
                 status: 'formation',
                 description:
-                    'Entidade de trading e mercados de capitais focada em estratégias proprietárias, formação de capital, operações de tesouraria e atividades de estruturação financeira de longo prazo em Angola e mercados africanos.',
+                    'Entidade de trading e mercados de capitais focada em estratégias proprietárias, formação de capital, operações de tesouraria e estruturação financeira de longo prazo em mercados regionais.',
             },
             {
                 name: 'Grupo FGMS & Associados, Lda.',
                 type: 'Plataforma Financeira Integrada',
                 status: 'formation',
                 description:
-                    'Plataforma financeira integrada desenhada para suportar operações de capital multi-estratégia, estruturação de investimento, coordenação de tesouraria e desenvolvimento institucional de longo prazo em Angola.',
+                    'Plataforma financeira integrada desenhada para suportar operações de capital multi-estratégia, estruturação de investimento, coordenação de tesouraria e desenvolvimento de longo prazo nos mercados nacionais.',
             },
             {
                 name: 'Biu-g Investment Management, Lda.',
@@ -131,7 +131,7 @@ const clusters = [
                 type: 'Educação & Capacitação',
                 status: 'operating',
                 description:
-                    'Iniciativa ativa de educação e capacitação em tecnologia, literacia financeira, infraestrutura digital e talento nativo em IA em Angola e África, com investigação, formação e aprendizagem comunitária alinhadas com a missão da Biu-g Holdings.',
+                    'Iniciativa ativa de educação e capacitação em tecnologia, literacia financeira, sistemas digitais e talento nativo em IA, com investigação, formação e aprendizagem comunitária alinhadas com a missão da Biu-g Holdings.',
             },
         ],
     },

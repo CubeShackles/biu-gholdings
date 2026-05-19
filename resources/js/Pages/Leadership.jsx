@@ -6,13 +6,13 @@ const executives = [
         name: 'Fábio G. Massanga',
         role: 'Managing Member, Founder, President & CEO of CubeShackles, Inc.',
         location: 'Angola / United States',
-        bio: 'Managing Member of Biu-g Holdings and President & CEO of CubeShackles, Inc. Leads the group’s long-term strategy across Angola, Portugal and the United States, with a focus on institutional-grade financial infrastructure, digital systems, national platforms and regulated market alignment.',
+        bio: 'Managing Member of Biu-g Holdings and President & CEO of CubeShackles, Inc. Leads the group’s long-term strategy across the United States and Angola, with a focus on financial systems, digital platforms and regulated market alignment.',
     },
     {
         name: 'José Quembi',
         role: 'Chief Technology Officer (CTO)',
         location: 'Lubango, Angola',
-        bio: 'Leads technical architecture and implementation of CubeShackles, the Angola National Wallet, BualaBuitu Terminal and the broader developer ecosystem, with a strong focus on offline-first, AOA-native infrastructure.',
+        bio: 'Leads technical architecture and implementation of CubeShackles, the Angola National Wallet, BualaBuitu Terminal and the broader developer ecosystem, with a focus on offline-first, AOA-native systems.',
     },
 ];
 
@@ -24,9 +24,9 @@ export default function Leadership() {
                     <p className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">Leadership</p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">Leadership &amp; Governance</h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        Biu-g Holdings is led by operators who combine on-the-ground execution in Angola with a global
-                        view of capital markets, technology and regulatory alignment. The group’s leadership is structured
-                        to balance national priorities, institutional discipline and long-term shareholder value.
+                        Biu-g Holdings is led by operators who combine on-the-ground execution with a global view of
+                        capital markets, technology and regulatory alignment. Leadership is structured to balance national
+                        priorities, disciplined governance and long-term shareholder value.
                     </p>
                 </header>
 
@@ -57,18 +57,18 @@ export default function Leadership() {
                     <h2 className="text-xl font-semibold text-zinc-900 md:text-2xl">Governance Philosophy</h2>
                     <p className="text-sm text-zinc-600">
                         Governance at Biu-g Holdings is designed around clear lines of accountability, jurisdictional
-                        rigor and multi-decade continuity. As the group onboards independent directors, institutional
-                        partners and strategic advisors, governance will formalize into:
+                        rigor and multi-decade continuity. As the group onboards independent directors, partners and
+                        strategic advisors, governance will formalize into:
                     </p>
                     <ul className="list-inside list-disc space-y-1 text-sm text-zinc-600">
                         <li>A holdings-level board at Biu-g Holdings LLC (USA).</li>
                         <li>Jurisdiction-specific boards for Portugal and Angola entities.</li>
                         <li>Specialized committees across risk, audit, technology and compensation.</li>
-                        <li>Formal channels for regulator and institutional partner engagement.</li>
+                        <li>Formal channels for regulator and partner engagement.</li>
                     </ul>
                     <p className="text-sm text-zinc-600">
                         {linkAcademyInText(
-                            'The objective is straightforward: ensure every core platform — CubeShackles, FGMS, PraçaNgola, National Data Platform, BIU.G Academy — operates with the same level of discipline expected from global institutions, while remaining anchored in Angola’s realities.',
+                            'The objective is straightforward: ensure every core platform — CubeShackles, FGMS, PraçaNgola, National Data Platform, BIU.G Academy — operates with the discipline expected of global standards, while remaining anchored in national realities.',
                         )}
                     </p>
                 </section>

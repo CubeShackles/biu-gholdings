@@ -18,7 +18,7 @@ const clusters = [
                 type: 'Operating Company',
                 status: 'formation',
                 description:
-                    'Angola operating company localizing CubeShackles infrastructure for national platforms, regulatory alignment, and institutional partnerships.',
+                    'National operating company localizing CubeShackles for national platforms, regulatory alignment, and regulated partnerships.',
             },
             {
                 name: 'National Data Platform',
@@ -70,14 +70,14 @@ const clusters = [
                 type: 'Trading & Capital',
                 status: 'formation',
                 description:
-                    'Trading and capital markets entity focused on proprietary strategies, capital formation, treasury operations and long-term financial structuring activities across Angola and African markets.',
+                    'Trading and capital markets entity focused on proprietary strategies, capital formation, treasury operations and long-term financial structuring across regional markets.',
             },
             {
                 name: 'Grupo FGMS & Associados, Lda.',
                 type: 'Integrated Financial Platform',
                 status: 'formation',
                 description:
-                    'Integrated financial platform designed to support multi-strategy capital operations, investment structuring, treasury coordination and long-term institutional development across Angola.',
+                    'Integrated financial platform designed to support multi-strategy capital operations, investment structuring, treasury coordination and long-term development across national markets.',
             },
             {
                 name: 'Biu-g Investment Management, Lda.',
@@ -131,7 +131,7 @@ const clusters = [
                 type: 'Education / Capacity Building',
                 status: 'operating',
                 description:
-                    'Active educational and capacity-building initiative focused on technology, financial literacy, digital infrastructure, and AI-native workforce development across Angola and Africa, with research, training, and community-led learning aligned with the Biu-g Holdings mission.',
+                    'Active educational and capacity-building initiative focused on technology, financial literacy, digital systems, and AI-native workforce development, with research, training, and community-led learning aligned with the Biu-g Holdings mission.',
             },
         ],
     },

@@ -10,11 +10,11 @@ export default function InvestorRelations() {
                         Investor Relations
                     </p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">
-                        Investor Relations &amp; Institutional Partnerships
+                        Investor Relations &amp; Partnerships
                     </h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        Biu-g Holdings is structured for long-duration capital and institutional partnerships across
-                        the United States, Portugal, and Angola. This page provides high-level corporate context only.
+                        Biu-g Holdings is structured for long-duration capital and partnerships across the United States
+                        and Angola. This page provides high-level corporate context only.
                     </p>
                 </header>
 
@@ -24,7 +24,7 @@ export default function InvestorRelations() {
                         <p>
                             The group is organized around Biu-g Holdings (United States) as the global parent, with
                             participation vehicles and operating companies in Portugal and Angola. Core technology and
-                            national infrastructure activities are conducted through affiliated entities in the CubeShackles
+                            national platform activities are conducted through affiliated entities in the CubeShackles
                             ecosystem.
                         </p>
                         <p className="text-xs text-zinc-500">

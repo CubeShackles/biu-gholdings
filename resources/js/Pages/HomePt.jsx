@@ -9,17 +9,17 @@ export default function HomePt() {
                         Biu-g Holdings
                     </p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">
-                        A Engenharia da Nova Infraestrutura Corporativa de África
+                        Engenharia de Plataformas Corporativas Duradouras
                     </h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        A Biu-g Holdings é uma plataforma global de holdings focada em construir infraestrutura
-                        financeira, tecnológica e institucional duradoura para Angola e África.
+                        A Biu-g Holdings é uma plataforma global de holdings que constrói sistemas financeiros e
+                        tecnológicos duradouros para Angola, com coordenação estratégica a partir dos Estados Unidos.
                     </p>
                 </section>
 
                 <section className="grid gap-6 md:grid-cols-3">
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4">
-                        <h2 className="text-sm font-semibold text-zinc-900">Infraestrutura Nacional</h2>
+                        <h2 className="text-sm font-semibold text-zinc-900">Plataformas Nacionais</h2>
                         <p className="text-xs text-zinc-600">
                             CubeShackles, sistemas nacionais de carteira planeados e rails financeiros nativos em AOA em
                             desenvolvimento no grupo.
@@ -28,15 +28,14 @@ export default function HomePt() {
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4">
                         <h2 className="text-sm font-semibold text-zinc-900">Disciplina Regulatória</h2>
                         <p className="text-xs text-zinc-600">
-                            Estruturado para clareza jurisdicional, alinhamento regulatório e disciplina institucional de
-                            longo prazo.
+                            Estruturado para clareza jurisdicional, alinhamento regulatório e disciplina de longo prazo.
                         </p>
                     </div>
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4">
                         <h2 className="text-sm font-semibold text-zinc-900">Ecossistema Multi-Vertical</h2>
                         <p className="text-xs text-zinc-600">
                             De dados e transporte a mercados de capitais e educação, o grupo opera uma stack vertical
-                            completa para Angola e além.
+                            completa para Angola e mercados regionais.
                         </p>
                     </div>
                 </section>

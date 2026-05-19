@@ -39,9 +39,7 @@ export default function MainLayout({ title, children }) {
                         <div className="flex min-w-0 flex-col leading-tight">
                             <span className="truncate text-sm font-semibold">Biu-g Holdings</span>
                             <span className="truncate text-xs text-zinc-500">
-                                {isPt
-                                    ? 'Infraestrutura corporativa para África'
-                                    : 'Corporate infrastructure for Africa'}
+                                {isPt ? 'Estados Unidos e Angola' : 'United States and Angola'}
                             </span>
                         </div>
                     </SiteLink>

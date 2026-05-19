@@ -10,12 +10,11 @@ export default function InvestorRelationsPt() {
                         Relações com Investidores
                     </p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">
-                        Relações com Investidores &amp; Parcerias Institucionais
+                        Relações com Investidores &amp; Parcerias
                     </h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        A Biu-g Holdings está estruturada para capital de longa duração e parcerias institucionais nos
-                        Estados Unidos, Portugal e Angola. Esta página disponibiliza apenas contexto corporativo de alto
-                        nível.
+                        A Biu-g Holdings está estruturada para capital de longa duração e parcerias nos Estados Unidos e
+                        Angola. Esta página disponibiliza apenas contexto corporativo de alto nível.
                     </p>
                 </header>
 
@@ -25,7 +24,7 @@ export default function InvestorRelationsPt() {
                         <p>
                             O grupo é organizado em torno da Biu-g Holdings (Estados Unidos) como entidade-mãe global,
                             com veículos de participação e empresas operacionais em Portugal e Angola. As atividades core
-                            de tecnologia e infraestrutura nacional são conduzidas através de entidades afiliadas do
+                            de tecnologia e plataformas nacionais são conduzidas através de entidades afiliadas do
                             ecossistema CubeShackles.
                         </p>
                         <p className="text-xs text-zinc-500">

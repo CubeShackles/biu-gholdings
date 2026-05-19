@@ -13,13 +13,14 @@ export default function CorporateStructurePt() {
                     </p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">Estrutura Corporativa</h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        A Biu-g Holdings opera através de uma estrutura multi-camada nos Estados Unidos, Portugal e
-                        Angola. Esta página descreve entidades controladas pelo grupo e veículos planeados apenas para
-                        transparência pública.
+                        A Biu-g Holdings opera através de uma estrutura multi-camada nos Estados Unidos e Angola. Esta
+                        página descreve entidades controladas pelo grupo e veículos planeados apenas para transparência
+                        pública.
                     </p>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        O grupo está organizado em clusters estratégicos em tecnologia, finanças, infraestrutura, dados,
-                        educação e veículos fiduciários.
+                        O grupo está organizado em clusters estratégicos em tecnologia, finanças, dados, educação e
+                        veículos fiduciários. A SGPS portuguesa e os veículos de participação são descritos na secção de
+                        holdings abaixo.
                     </p>
                     <div className="rounded-lg border border-amber-200 bg-amber-50/50 p-4 text-xs leading-relaxed text-zinc-600 md:p-5">
                         <p>
@@ -88,8 +89,8 @@ export default function CorporateStructurePt() {
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                         <h3 className="text-lg font-semibold text-zinc-900">CubeShackles, S.A.</h3>
                         <p className="text-sm text-zinc-600">
-                            Sociedade operacional em Angola que localiza a infraestrutura CubeShackles para plataformas
-                            nacionais, alinhamento regulatório e parcerias institucionais.
+                            Sociedade operacional nacional que localiza a CubeShackles para plataformas nacionais,
+                            alinhamento regulatório e parcerias reguladas.
                         </p>
                     </div>
 
@@ -151,7 +152,7 @@ export default function CorporateStructurePt() {
                             <p className="text-sm text-zinc-600">
                                 Entidade de trading e mercados de capitais focada em estratégias proprietárias, formação de
                                 capital, operações de tesouraria e atividades de estruturação financeira de longo prazo em
-                                Angola e mercados africanos.
+                                mercados regionais.
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
@@ -160,7 +161,7 @@ export default function CorporateStructurePt() {
                             <p className="text-sm text-zinc-600">
                                 Plataforma financeira integrada desenhada para suportar operações de capital
                                 multi-estratégia, estruturação de investimento, coordenação de tesouraria e desenvolvimento
-                                institucional de longo prazo em Angola.
+                                de longo prazo nos mercados nacionais.
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
@@ -235,7 +236,7 @@ export default function CorporateStructurePt() {
                         </h3>
                         <p className="text-sm text-zinc-600">
                             {linkAcademyInText(
-                                'A BIU.G Academy é uma iniciativa ativa de educação e capacitação, focada em tecnologia, literacia financeira, infraestrutura digital e desenvolvimento de talento nativo em IA em Angola e África.',
+                                'A BIU.G Academy é uma iniciativa ativa de educação e capacitação, focada em tecnologia, literacia financeira, sistemas digitais e desenvolvimento de talento nativo em IA.',
                             )}
                         </p>
                         <p className="text-sm text-zinc-600">

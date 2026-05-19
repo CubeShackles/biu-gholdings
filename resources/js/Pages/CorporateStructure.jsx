@@ -13,13 +13,13 @@ export default function CorporateStructure() {
                     </p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">Corporate Structure</h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        Biu-g Holdings operates through a multi-layer structure spanning the United States, Portugal,
-                        and Angola. This page describes group-controlled entities and planned vehicles for public
-                        transparency only.
+                        Biu-g Holdings operates through a multi-layer structure across the United States and Angola. This
+                        page describes group-controlled entities and planned vehicles for public transparency only.
                     </p>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        The group is organized into strategic clusters across technology, finance, infrastructure, data,
-                        education, and fiduciary vehicles.
+                        The group is organized into strategic clusters across technology, finance, data, education, and
+                        fiduciary vehicles. Portuguese SGPS and participation vehicles are described in the holdings
+                        section below.
                     </p>
                     <div className="rounded-lg border border-amber-200 bg-amber-50/50 p-4 text-xs leading-relaxed text-zinc-600 md:p-5">
                         <p>
@@ -90,8 +90,8 @@ export default function CorporateStructure() {
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                         <h3 className="text-lg font-semibold text-zinc-900">CubeShackles, S.A.</h3>
                         <p className="text-sm text-zinc-600">
-                            Angola operating company localizing CubeShackles infrastructure for national platforms,
-                            regulatory alignment, and institutional partnerships.
+                            National operating company localizing CubeShackles for national platforms, regulatory
+                            alignment, and regulated partnerships.
                         </p>
                     </div>
 
@@ -152,8 +152,7 @@ export default function CorporateStructure() {
                             <EntityStatusBadge status="formation" locale="en" />
                             <p className="text-sm text-zinc-600">
                                 Trading and capital markets entity focused on proprietary strategies, capital formation,
-                                treasury operations and long-term financial structuring activities across Angola and African
-                                markets.
+                                treasury operations and long-term financial structuring across regional markets.
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
@@ -161,8 +160,8 @@ export default function CorporateStructure() {
                             <EntityStatusBadge status="formation" locale="en" />
                             <p className="text-sm text-zinc-600">
                                 Integrated financial platform designed to support multi-strategy capital operations,
-                                investment structuring, treasury coordination and long-term institutional development across
-                                Angola.
+                                investment structuring, treasury coordination and long-term development across national
+                                markets.
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
@@ -240,7 +239,7 @@ export default function CorporateStructure() {
                         </h3>
                         <p className="text-sm text-zinc-600">
                             {linkAcademyInText(
-                                'BIU.G Academy is an active educational and capacity-building initiative focused on technology, financial literacy, digital infrastructure, and AI-native workforce development across Angola and Africa.',
+                                'BIU.G Academy is an active educational and capacity-building initiative focused on technology, financial literacy, digital systems, and AI-native workforce development.',
                             )}
                         </p>
                         <p className="text-sm text-zinc-600">
