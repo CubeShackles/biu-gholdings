@@ -9,7 +9,7 @@ export default function Home() {
                         Biu-g Holdings
                     </p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">
-                        Engineering Durable Corporate Platforms
+                        Building Africa&apos;s Institutional Infrastructure
                     </h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
                         Biu-g Holdings is a global holdings platform building durable financial and technology systems

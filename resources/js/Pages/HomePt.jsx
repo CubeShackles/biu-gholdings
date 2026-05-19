@@ -9,7 +9,7 @@ export default function HomePt() {
                         Biu-g Holdings
                     </p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">
-                        Engenharia de Plataformas Corporativas Duradouras
+                        Construção da Infraestrutura Institucional de África
                     </h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
                         A Biu-g Holdings é uma plataforma global de holdings que constrói sistemas financeiros e

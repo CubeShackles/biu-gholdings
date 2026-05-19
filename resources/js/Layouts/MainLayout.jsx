@@ -68,14 +68,16 @@ export default function MainLayout({ title, children }) {
                     </nav>
                 </div>
             </header>
-            <main className="flex-1">{children}</main>
-            <footer className="mt-auto border-t border-zinc-200 bg-white">
-                <div className="mx-auto max-w-6xl px-4 py-4 text-xs text-zinc-500">
-                    <span>
+            <main className="flex flex-1 flex-col">
+                <div className="flex flex-1 flex-col">{children}</div>
+            </main>
+            <footer className="mt-auto shrink-0 border-t border-zinc-200 bg-white">
+                <div className="mx-auto w-full max-w-6xl px-4 py-5 sm:px-6 sm:py-6">
+                    <p className="text-xs leading-relaxed text-zinc-500">
                         {isPt
                             ? '© 2026 Biu-g Holdings. Todos os direitos reservados.'
                             : '© 2026 Biu-g Holdings. All rights reserved.'}
-                    </span>
+                    </p>
                 </div>
             </footer>
         </div>
