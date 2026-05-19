@@ -32,14 +32,14 @@ export default function LanguageToggle() {
     const isPt = pageComponent.endsWith('Pt');
 
     return (
-        <div className="flex items-center gap-2 text-xs md:text-sm">
+        <div className="flex items-center gap-1.5 text-[11px] font-normal tracking-wide">
             <SiteLink
                 routeName={cfg.en}
                 className={
-                    'rounded-full border px-2 py-1 transition ' +
+                    'rounded border px-2 py-1 transition-colors ' +
                     (!isPt
                         ? 'border-zinc-900 bg-zinc-900 text-white'
-                        : 'border-zinc-300 text-zinc-600 hover:border-zinc-500 hover:text-zinc-800')
+                        : 'border-zinc-200 text-zinc-500 hover:border-zinc-400 hover:text-zinc-800')
                 }
             >
                 EN
@@ -47,10 +47,10 @@ export default function LanguageToggle() {
             <SiteLink
                 routeName={cfg.pt}
                 className={
-                    'rounded-full border px-2 py-1 transition ' +
+                    'rounded border px-2 py-1 transition-colors ' +
                     (isPt
                         ? 'border-zinc-900 bg-zinc-900 text-white'
-                        : 'border-zinc-300 text-zinc-600 hover:border-zinc-500 hover:text-zinc-800')
+                        : 'border-zinc-200 text-zinc-500 hover:border-zinc-400 hover:text-zinc-800')
                 }
             >
                 PT

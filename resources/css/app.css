@@ -9,3 +9,31 @@
     --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+@layer base {
+    html {
+        @apply antialiased;
+    }
+
+    body {
+        @apply text-zinc-800;
+    }
+
+    p {
+        @apply leading-[1.7];
+    }
+}
+
+@layer components {
+    .site-main {
+        @apply text-[15px] leading-relaxed text-zinc-800;
+    }
+
+    .site-main p {
+        @apply leading-[1.7] text-zinc-600;
+    }
+
+    .site-main .text-xs {
+        @apply leading-relaxed;
+    }
+}
