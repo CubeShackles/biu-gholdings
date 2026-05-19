@@ -6,18 +6,18 @@ const clusters = [
         title: 'CubeShackles Group – Core Technology & Infrastructure',
         items: [
             {
-                name: 'CubeShackles, Inc. (Delaware C-Corp, USA)',
+                name: 'CubeShackles, Inc. (USA)',
                 type: 'Technology / IP Company',
                 status: 'Active',
                 description:
                     'Global technology and intellectual property company for the CubeShackles ecosystem. Responsible for protocol research, software architecture, brand stewardship, and future licensing frameworks.',
             },
             {
-                name: 'CubeShackles, S.A. (Angola)',
+                name: 'CubeShackles, S.A.',
                 type: 'Operating Company',
                 status: 'Planned / In Formation',
                 description:
-                    'Angola-focused operating company intended to localize CubeShackles infrastructure for national use cases, regulatory alignment, and future institutional partnerships, subject to applicable approvals.',
+                    'Angola operating company localizing CubeShackles infrastructure for national platforms, regulatory alignment, and institutional partnerships.',
             },
             {
                 name: 'National Data Platform',
@@ -65,28 +65,28 @@ const clusters = [
         title: 'FGM / FGMS & Investment Cluster',
         items: [
             {
-                name: 'FGM Capital, Lda. (Angola)',
+                name: 'FGM Capital, Lda.',
                 type: 'Trading & Capital',
                 status: 'Planned / In Formation',
                 description:
                     'Trading and capital markets entity focused on proprietary strategies, capital formation, treasury operations and long-term financial structuring activities across Angola and African markets.',
             },
             {
-                name: 'Grupo FGMS & Associados, Lda. (Angola)',
+                name: 'Grupo FGMS & Associados, Lda.',
                 type: 'Integrated Financial Platform',
                 status: 'Planned / In Formation',
                 description:
                     'Integrated financial platform designed to support multi-strategy capital operations, investment structuring, treasury coordination and long-term institutional development across Angola.',
             },
             {
-                name: 'Biu-g Investment Management, Lda. (Angola)',
+                name: 'Biu-g Investment Management, Lda.',
                 type: 'Asset Management',
                 status: 'Planned / In Formation',
                 description:
                     'AOA-focused asset management platform designed to operate dedicated investment vehicles across public markets, strategic sectors and long-term national capital development initiatives.',
             },
             {
-                name: '1975 Nzila, Lda. (Angola)',
+                name: '1975 Nzila, Lda.',
                 type: 'VC / PE & Experiences',
                 status: 'Planned',
                 description:
@@ -112,7 +112,7 @@ const clusters = [
         title: 'Fiduciary & Education',
         items: [
             {
-                name: 'Fundo Fiduciário Estratégico (Angola)',
+                name: 'Fundo Fiduciário Estratégico',
                 type: 'Fiduciary Vehicle',
                 status: 'Planned',
                 description:

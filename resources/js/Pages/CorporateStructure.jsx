@@ -48,7 +48,7 @@ export default function CorporateStructure() {
                     </h2>
                     <div className="grid gap-4 md:grid-cols-2">
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">Biu-g SGPS, Lda. (Portugal)</h3>
+                            <h3 className="text-lg font-semibold text-zinc-900">Biu-g SGPS, Lda.</h3>
                             <p className="text-sm text-zinc-600">
                                 Portuguese SGPS holding. Functions as the European equity vehicle and diversification
                                 structure.
@@ -56,11 +56,11 @@ export default function CorporateStructure() {
                             <p className="text-sm text-zinc-600">
                                 <span className="font-medium">Equity role:</span> holds direct equity in{' '}
                                 <span className="font-medium">CubeShackles, Inc. (USA)</span> and provides indirect exposure
-                                to <span className="font-medium">CubeShackles, S.A. (Angola)</span>.
+                                to <span className="font-medium">CubeShackles, S.A.</span>.
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">Biu-g SGPS, Lda. (Angola)</h3>
+                            <h3 className="text-lg font-semibold text-zinc-900">Biu-g SGPS, Lda.</h3>
                             <p className="text-sm text-zinc-600">
                                 Angolan SGPS providing AOA-native control and alignment with Angolan regulators and
                                 institutions.
@@ -78,7 +78,7 @@ export default function CorporateStructure() {
                         3. CubeShackles Group — Core Technology &amp; National Infrastructure
                     </h2>
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                        <h3 className="text-lg font-semibold text-zinc-900">CubeShackles, Inc. (Delaware C-Corp, USA)</h3>
+                        <h3 className="text-lg font-semibold text-zinc-900">CubeShackles, Inc. (USA)</h3>
                         <p className="text-sm text-zinc-600">
                             Global technology and intellectual property company for the CubeShackles ecosystem.
                             Responsible for protocol research, software architecture, brand stewardship, and future
@@ -87,11 +87,10 @@ export default function CorporateStructure() {
                     </div>
 
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                        <h3 className="text-lg font-semibold text-zinc-900">CubeShackles, S.A. (Angola)</h3>
+                        <h3 className="text-lg font-semibold text-zinc-900">CubeShackles, S.A.</h3>
                         <p className="text-sm text-zinc-600">
-                            Angola-focused operating company intended to localize CubeShackles infrastructure for national
-                            use cases, regulatory alignment, and future institutional partnerships, subject to applicable
-                            approvals.
+                            Angola operating company localizing CubeShackles infrastructure for national platforms,
+                            regulatory alignment, and institutional partnerships.
                         </p>
                     </div>
 
@@ -148,7 +147,7 @@ export default function CorporateStructure() {
                     </h2>
                     <div className="grid gap-4 md:grid-cols-2">
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">FGM Capital, Lda. (Angola)</h3>
+                            <h3 className="text-lg font-semibold text-zinc-900">FGM Capital, Lda.</h3>
                             <p className="text-[11px] text-zinc-500">Planned / In Formation</p>
                             <p className="text-sm text-zinc-600">
                                 Trading and capital markets entity focused on proprietary strategies, capital formation,
@@ -157,7 +156,7 @@ export default function CorporateStructure() {
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">Grupo FGMS &amp; Associados, Lda. (Angola)</h3>
+                            <h3 className="text-lg font-semibold text-zinc-900">Grupo FGMS &amp; Associados, Lda.</h3>
                             <p className="text-[11px] text-zinc-500">Planned / In Formation</p>
                             <p className="text-sm text-zinc-600">
                                 Integrated financial platform designed to support multi-strategy capital operations,
@@ -166,7 +165,7 @@ export default function CorporateStructure() {
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">Biu-g Investment Management, Lda. (Angola)</h3>
+                            <h3 className="text-lg font-semibold text-zinc-900">Biu-g Investment Management, Lda.</h3>
                             <p className="text-[11px] text-zinc-500">Planned / In Formation</p>
                             <p className="text-sm text-zinc-600">
                                 AOA-focused asset management platform structured to operate 15 dedicated investment funds,
@@ -175,7 +174,7 @@ export default function CorporateStructure() {
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">1975 Nzila, Lda. (Angola) — Planned</h3>
+                            <h3 className="text-lg font-semibold text-zinc-900">1975 Nzila, Lda.</h3>
                             <p className="text-sm text-zinc-600">
                                 Local VC/PE and hospitality / brand experience arm, economically linked to the FGMS and
                                 Biu-g Investment Management cluster.
@@ -201,14 +200,14 @@ export default function CorporateStructure() {
                 <section className="space-y-4">
                     <h2 className="text-xl font-semibold text-zinc-900 md:text-2xl">5. Trusts &amp; Fiduciary Vehicles</h2>
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                        <h3 className="text-lg font-semibold text-zinc-900">Fundo Fiduciário Estratégico (Angola) — Planned</h3>
+                        <h3 className="text-lg font-semibold text-zinc-900">Fundo Fiduciário Estratégico</h3>
                         <p className="text-sm text-zinc-600">
                             Planned internal fiduciary structure to support continuity, stakeholder alignment, and
                             AOA-denominated interests on behalf of Biu-g Holdings within the group.
                         </p>
                         <p className="text-sm text-zinc-600">
                             Representation is exercised through{' '}
-                            <span className="font-medium">Sociedade de Participações BIU-G, Lda. (Angola)</span>.
+                            <span className="font-medium">Sociedade de Participações BIU-G, Lda.</span>.
                         </p>
                     </div>
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
@@ -273,18 +272,18 @@ export default function CorporateStructure() {
                             <h3 className="mb-2 text-sm font-semibold text-zinc-900">1. Holdings Shells (SPVs &amp; SGPS)</h3>
                             <ul className="list-inside list-disc space-y-1 text-xs text-zinc-600">
                                 <li>Biu-g Holdings LLC (USA)</li>
-                                <li>Biu-g SGPS (Portugal &amp; Angola)</li>
-                                <li>Sociedade de Participações BIU-G (Portugal &amp; Angola)</li>
+                                <li>Biu-g SGPS, Lda.</li>
+                                <li>Sociedade de Participações BIU-G, Lda.</li>
                             </ul>
                         </div>
                         <div className="rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="mb-2 text-sm font-semibold text-zinc-900">2. Operating Platforms</h3>
                             <ul className="list-inside list-disc space-y-1 text-xs text-zinc-600">
                                 <li>CubeShackles, Inc. (USA)</li>
-                                <li>CubeShackles, S.A. (Angola)</li>
-                                <li>FGM Capital, Lda. (Angola)</li>
-                                <li>Grupo FGMS &amp; Associados, Lda. (Angola)</li>
-                                <li>Biu-g Investment Management, Lda. (Angola)</li>
+                                <li>CubeShackles, S.A.</li>
+                                <li>FGM Capital, Lda.</li>
+                                <li>Grupo FGMS &amp; Associados, Lda.</li>
+                                <li>Biu-g Investment Management, Lda.</li>
                                 <li>
                                     National Data Platform, Kulifikila, PraçaNgola, Angola National Transit Platform,
                                     BualaBuitu Terminal (platforms inside CubeShackles, S.A.); 1975 Nzila, FGMS &amp; Co,
@@ -295,7 +294,7 @@ export default function CorporateStructure() {
                         <div className="rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="mb-2 text-sm font-semibold text-zinc-900">3. Trust &amp; Education</h3>
                             <ul className="list-inside list-disc space-y-1 text-xs text-zinc-600">
-                                <li>Fundo Fiduciário Estratégico (Angola)</li>
+                                <li>Fundo Fiduciário Estratégico</li>
                                 <li>Sango Trust</li>
                                 <li>
                                     <AcademyLink />
