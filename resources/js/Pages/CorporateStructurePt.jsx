@@ -98,7 +98,7 @@ export default function CorporateStructurePt() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">National Data Platform</h3>
                             <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                            <EntityStatusBadge status="internalProduct" locale="pt" />
+                            <EntityStatusBadge status="groupProduct" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma de dados económicos e sociais — inflação, desemprego, mercados informais, índices
                                 de preços e métricas de acesso.
@@ -107,7 +107,7 @@ export default function CorporateStructurePt() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">Kulifikila</h3>
                             <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                            <EntityStatusBadge status="internalProduct" locale="pt" />
+                            <EntityStatusBadge status="groupProduct" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma de inteligência de crédito para sectores formal e informal, com scoring
                                 multi-camada em AOA e inteligência de risco.
@@ -116,7 +116,7 @@ export default function CorporateStructurePt() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">Angola National Transit Platform</h3>
                             <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                            <EntityStatusBadge status="internalProduct" locale="pt" />
+                            <EntityStatusBadge status="groupProduct" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Aplicação nacional de mobilidade para motoristas e passageiros, com rails de pagamento e
                                 fiscais integrados.
@@ -125,7 +125,7 @@ export default function CorporateStructurePt() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">PraçaNgola</h3>
                             <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                            <EntityStatusBadge status="internalProduct" locale="pt" />
+                            <EntityStatusBadge status="groupProduct" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma nacional de e-commerce e logística para Angola e escala regional.
                             </p>
@@ -135,7 +135,7 @@ export default function CorporateStructurePt() {
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                         <h3 className="text-lg font-semibold text-zinc-900">BualaBuitu Terminal</h3>
                         <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                        <EntityStatusBadge status="internalProduct" locale="pt" />
+                        <EntityStatusBadge status="groupProduct" locale="pt" />
                         <p className="text-sm text-zinc-600">
                             Terminal de inteligência de mercado financeiro para dados em tempo real, análises e
                             infraestrutura de mercado.

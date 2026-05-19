@@ -24,7 +24,7 @@ const clusters = [
                 name: 'National Data Platform',
                 platform: 'Platform inside CubeShackles, S.A.',
                 type: 'Data Platform',
-                status: 'internalProduct',
+                status: 'groupProduct',
                 description:
                     'Economic and social data platform — inflation, unemployment, informal markets, local price indices and access metrics.',
             },
@@ -32,7 +32,7 @@ const clusters = [
                 name: 'Kulifikila',
                 platform: 'Platform inside CubeShackles, S.A.',
                 type: 'Credit Intelligence Platform',
-                status: 'internalProduct',
+                status: 'groupProduct',
                 description:
                     'Credit intelligence for formal and informal sectors, with multi-layer AOA credit scoring and risk intelligence.',
             },
@@ -40,7 +40,7 @@ const clusters = [
                 name: 'Angola National Transit Platform',
                 platform: 'Platform inside CubeShackles, S.A.',
                 type: 'Mobility / Transit',
-                status: 'internalProduct',
+                status: 'groupProduct',
                 description:
                     'National mobility application for drivers and riders, with integrated payment and tax rails.',
             },
@@ -48,7 +48,7 @@ const clusters = [
                 name: 'PraçaNgola',
                 platform: 'Platform inside CubeShackles, S.A.',
                 type: 'E-commerce Infrastructure',
-                status: 'internalProduct',
+                status: 'groupProduct',
                 description:
                     'National e-commerce and logistics platform for Angola and regional scale.',
             },
@@ -56,7 +56,7 @@ const clusters = [
                 name: 'BualaBuitu Terminal',
                 platform: 'Platform inside CubeShackles, S.A.',
                 type: 'Market Intelligence Platform',
-                status: 'internalProduct',
+                status: 'groupProduct',
                 description:
                     'Financial market intelligence terminal for real-time data, analytics, and market infrastructure.',
             },
@@ -117,7 +117,7 @@ const clusters = [
                 type: 'Fiduciary Vehicle',
                 status: 'formation',
                 description:
-                    'Planned internal fiduciary structure supporting continuity and alignment within the Biu-g group.',
+                    'Planned group fiduciary structure supporting continuity and alignment within the Biu-g group.',
             },
             {
                 name: 'Sango Trust',
@@ -146,7 +146,7 @@ export default function Subsidiaries() {
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">Subsidiaries &amp; Portfolio Companies</h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
                         Biu-g Holdings operates a multi-entity portfolio across technology, finance, data, mobility,
-                        e-commerce, media and education. Listed entities are group-controlled or planned internal vehicles.
+                        e-commerce, media and education. Listed entities are group-controlled or planned group vehicles.
                     </p>
                     <p className="rounded-lg border border-amber-200 bg-amber-50/50 p-4 text-xs leading-relaxed text-zinc-600">
                         References to planned entities may evolve as legal and regulatory conditions change. This page does

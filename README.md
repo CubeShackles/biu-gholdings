@@ -4,7 +4,7 @@ Biu-g Holdings LLC is a global parent and holding company focused on financial a
 
 ## Jurisdictions
 
-The group operates with jurisdictional clarity across the **United States**, **Portugal**, and **Angola**.
+The group operates with jurisdictional clarity across the **United States** and **Angola**, with European holding structures in **Portugal** where legally relevant.
 
 ## This repository
 

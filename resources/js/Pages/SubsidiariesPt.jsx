@@ -24,7 +24,7 @@ const clusters = [
                 name: 'National Data Platform',
                 platform: 'Plataforma dentro da CubeShackles, S.A.',
                 type: 'Plataforma de Dados',
-                status: 'internalProduct',
+                status: 'groupProduct',
                 description:
                     'Plataforma de dados económicos e sociais — inflação, desemprego, mercados informais, índices de preços e métricas de acesso.',
             },
@@ -32,7 +32,7 @@ const clusters = [
                 name: 'Kulifikila',
                 platform: 'Plataforma dentro da CubeShackles, S.A.',
                 type: 'Plataforma de Inteligência de Crédito',
-                status: 'internalProduct',
+                status: 'groupProduct',
                 description:
                     'Inteligência de crédito para sectores formal e informal, com scoring multi-camada em AOA e inteligência de risco.',
             },
@@ -40,7 +40,7 @@ const clusters = [
                 name: 'Angola National Transit Platform',
                 platform: 'Plataforma dentro da CubeShackles, S.A.',
                 type: 'Mobilidade & Transporte',
-                status: 'internalProduct',
+                status: 'groupProduct',
                 description:
                     'Aplicação nacional de mobilidade para motoristas e passageiros, com rails de pagamento e fiscais integrados.',
             },
@@ -48,7 +48,7 @@ const clusters = [
                 name: 'PraçaNgola',
                 platform: 'Plataforma dentro da CubeShackles, S.A.',
                 type: 'Infraestrutura de E-commerce',
-                status: 'internalProduct',
+                status: 'groupProduct',
                 description:
                     'Plataforma nacional de e-commerce e logística para Angola e escala regional.',
             },
@@ -56,7 +56,7 @@ const clusters = [
                 name: 'BualaBuitu Terminal',
                 platform: 'Plataforma dentro da CubeShackles, S.A.',
                 type: 'Plataforma de Inteligência de Mercado',
-                status: 'internalProduct',
+                status: 'groupProduct',
                 description:
                     'Terminal de inteligência de mercado financeiro para dados em tempo real, análises e infraestrutura de mercado.',
             },
@@ -146,7 +146,7 @@ export default function SubsidiariesPt() {
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">Subsidiárias &amp; Empresas do Portefólio</h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
                         A Biu-g Holdings opera um portefólio multi-entidade em tecnologia, finanças, dados, mobilidade,
-                        e-commerce, media e educação. As entidades listadas são controladas pelo grupo ou veículos internos
+                        e-commerce, media e educação. As entidades listadas são controladas pelo grupo ou veículos planeados
                         planeados.
                     </p>
                     <p className="rounded-lg border border-amber-200 bg-amber-50/50 p-4 text-xs leading-relaxed text-zinc-600">

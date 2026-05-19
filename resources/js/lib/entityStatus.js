@@ -1,7 +1,7 @@
 export const entityStatusLabels = {
     operating: { en: 'Operating', pt: 'Em Operação' },
     formation: { en: 'Formation Stage', pt: 'Fase de Constituição' },
-    internalProduct: { en: 'Internal Product', pt: 'Produto Interno' },
+    groupProduct: { en: 'Group Platform', pt: 'Plataforma do Grupo' },
 };
 
 export function getEntityStatusLabel(status, locale = 'en') {

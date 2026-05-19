@@ -99,7 +99,7 @@ export default function CorporateStructure() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">National Data Platform</h3>
                             <p className="text-xs font-medium text-zinc-500">Platform inside CubeShackles, S.A.</p>
-                            <EntityStatusBadge status="internalProduct" locale="en" />
+                            <EntityStatusBadge status="groupProduct" locale="en" />
                             <p className="text-sm text-zinc-600">
                                 Economic and social data platform — inflation, unemployment, informal markets, local price
                                 indices, and access metrics.
@@ -108,7 +108,7 @@ export default function CorporateStructure() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">Kulifikila</h3>
                             <p className="text-xs font-medium text-zinc-500">Platform inside CubeShackles, S.A.</p>
-                            <EntityStatusBadge status="internalProduct" locale="en" />
+                            <EntityStatusBadge status="groupProduct" locale="en" />
                             <p className="text-sm text-zinc-600">
                                 Credit intelligence platform for formal and informal sectors, with multi-layer AOA credit
                                 scoring and risk intelligence.
@@ -117,7 +117,7 @@ export default function CorporateStructure() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">Angola National Transit Platform</h3>
                             <p className="text-xs font-medium text-zinc-500">Platform inside CubeShackles, S.A.</p>
-                            <EntityStatusBadge status="internalProduct" locale="en" />
+                            <EntityStatusBadge status="groupProduct" locale="en" />
                             <p className="text-sm text-zinc-600">
                                 National mobility application for drivers and riders, with integrated payment and tax rails.
                             </p>
@@ -125,7 +125,7 @@ export default function CorporateStructure() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">PraçaNgola</h3>
                             <p className="text-xs font-medium text-zinc-500">Platform inside CubeShackles, S.A.</p>
-                            <EntityStatusBadge status="internalProduct" locale="en" />
+                            <EntityStatusBadge status="groupProduct" locale="en" />
                             <p className="text-sm text-zinc-600">
                                 National e-commerce and logistics platform for Angola and regional scale.
                             </p>
@@ -135,7 +135,7 @@ export default function CorporateStructure() {
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                         <h3 className="text-lg font-semibold text-zinc-900">BualaBuitu Terminal</h3>
                         <p className="text-xs font-medium text-zinc-500">Platform inside CubeShackles, S.A.</p>
-                        <EntityStatusBadge status="internalProduct" locale="en" />
+                        <EntityStatusBadge status="groupProduct" locale="en" />
                         <p className="text-sm text-zinc-600">
                             Financial market intelligence terminal for real-time data, analytics, and market infrastructure.
                         </p>
@@ -211,7 +211,7 @@ export default function CorporateStructure() {
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                         <h3 className="text-lg font-semibold text-zinc-900">Fundo Fiduciário Estratégico</h3>
                         <p className="text-sm text-zinc-600">
-                            Planned internal fiduciary structure to support continuity, stakeholder alignment, and
+                            Planned group fiduciary structure to support continuity, stakeholder alignment, and
                             AOA-denominated interests on behalf of Biu-g Holdings within the group.
                         </p>
                         <p className="text-sm text-zinc-600">
