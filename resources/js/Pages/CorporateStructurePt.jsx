@@ -1,4 +1,5 @@
 import AcademyLink from '@/Components/AcademyLink';
+import EntityStatusBadge from '@/Components/EntityStatusBadge';
 import MainLayout from '@/Layouts/MainLayout';
 import { linkAcademyInText } from '@/lib/publicLinks';
 
@@ -96,7 +97,7 @@ export default function CorporateStructurePt() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">National Data Platform</h3>
                             <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                            <p className="text-[11px] text-zinc-500">Produto (Spin-out Opcional)</p>
+                            <EntityStatusBadge status="internalProduct" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma de dados económicos e sociais — inflação, desemprego, mercados informais, índices
                                 de preços e métricas de acesso.
@@ -105,7 +106,7 @@ export default function CorporateStructurePt() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">Kulifikila</h3>
                             <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                            <p className="text-[11px] text-zinc-500">Produto (Spin-out Opcional)</p>
+                            <EntityStatusBadge status="internalProduct" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma de inteligência de crédito para sectores formal e informal, com scoring
                                 multi-camada em AOA e inteligência de risco.
@@ -114,7 +115,7 @@ export default function CorporateStructurePt() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">Angola National Transit Platform</h3>
                             <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                            <p className="text-[11px] text-zinc-500">Produto (Spin-out Opcional)</p>
+                            <EntityStatusBadge status="internalProduct" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Aplicação nacional de mobilidade para motoristas e passageiros, com rails de pagamento e
                                 fiscais integrados.
@@ -123,7 +124,7 @@ export default function CorporateStructurePt() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">PraçaNgola</h3>
                             <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                            <p className="text-[11px] text-zinc-500">Produto (Spin-out Opcional)</p>
+                            <EntityStatusBadge status="internalProduct" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma nacional de e-commerce e logística para Angola e escala regional.
                             </p>
@@ -133,7 +134,7 @@ export default function CorporateStructurePt() {
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                         <h3 className="text-lg font-semibold text-zinc-900">BualaBuitu Terminal</h3>
                         <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                        <p className="text-[11px] text-zinc-500">Produto (Spin-out Opcional)</p>
+                        <EntityStatusBadge status="internalProduct" locale="pt" />
                         <p className="text-sm text-zinc-600">
                             Terminal de inteligência de mercado financeiro para dados em tempo real, análises e
                             infraestrutura de mercado.
@@ -146,7 +147,7 @@ export default function CorporateStructurePt() {
                     <div className="grid gap-4 md:grid-cols-2">
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">FGM Capital, Lda.</h3>
-                            <p className="text-[11px] text-zinc-500">Planeado / Em Estruturação</p>
+                            <EntityStatusBadge status="formation" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Entidade de trading e mercados de capitais focada em estratégias proprietárias, formação de
                                 capital, operações de tesouraria e atividades de estruturação financeira de longo prazo em
@@ -155,7 +156,7 @@ export default function CorporateStructurePt() {
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">Grupo FGMS &amp; Associados, Lda.</h3>
-                            <p className="text-[11px] text-zinc-500">Planeado / Em Estruturação</p>
+                            <EntityStatusBadge status="formation" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma financeira integrada desenhada para suportar operações de capital
                                 multi-estratégia, estruturação de investimento, coordenação de tesouraria e desenvolvimento
@@ -164,7 +165,7 @@ export default function CorporateStructurePt() {
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">Biu-g Investment Management, Lda.</h3>
-                            <p className="text-[11px] text-zinc-500">Planeado / Em Estruturação</p>
+                            <EntityStatusBadge status="formation" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma de gestão de ativos focada em AOA, desenhada para operar veículos de investimento
                                 dedicados em mercados públicos, sectores estratégicos e iniciativas de desenvolvimento de
@@ -172,21 +173,30 @@ export default function CorporateStructurePt() {
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">1975 Nzila, Lda.</h3>
+                            <div className="flex flex-wrap items-center gap-2">
+                                <h3 className="text-lg font-semibold text-zinc-900">1975 Nzila, Lda.</h3>
+                                <EntityStatusBadge status="formation" locale="pt" />
+                            </div>
                             <p className="text-sm text-zinc-600">
                                 Veículo local de VC/PE e braço de hospitalidade/experiência de marca, ligado economicamente
                                 ao cluster FGMS e Biu-g Investment Management.
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">FGMS &amp; Co. — Planeada</h3>
+                            <div className="flex flex-wrap items-center gap-2">
+                                <h3 className="text-lg font-semibold text-zinc-900">FGMS &amp; Co.</h3>
+                                <EntityStatusBadge status="formation" locale="pt" />
+                            </div>
                             <p className="text-sm text-zinc-600">
                                 Veículo focado em operações imobiliárias em Angola e Portugal, alinhado com o grupo FGMS e as
                                 holdings.
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">FGM &amp; Co. — Planeada</h3>
+                            <div className="flex flex-wrap items-center gap-2">
+                                <h3 className="text-lg font-semibold text-zinc-900">FGM &amp; Co.</h3>
+                                <EntityStatusBadge status="formation" locale="pt" />
+                            </div>
                             <p className="text-sm text-zinc-600">
                                 SPV para coinvestimento, advisory e estruturação financeira em operações estratégicas.
                             </p>
