@@ -3,15 +3,13 @@ import MainLayout from '@/Layouts/MainLayout';
 export default function Home() {
     return (
         <MainLayout title="Biu-g Holdings – Corporate Home">
-            <div className="mx-auto max-w-5xl space-y-10 px-4 py-12">
-                <section className="space-y-4">
-                    <p className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
-                        Biu-g Holdings
-                    </p>
-                    <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">
+            <div className="mx-auto max-w-5xl space-y-12 px-4 py-16">
+                <section className="max-w-3xl space-y-5">
+                    <p className="site-eyebrow">Biu-g Holdings</p>
+                    <h1 className="text-4xl font-semibold text-zinc-900 md:text-5xl">
                         Building Africa&apos;s Institutional Infrastructure
                     </h1>
-                    <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
+                    <p className="text-base leading-relaxed text-zinc-600 md:text-lg">
                         Biu-g Holdings is a global holdings platform building durable financial and technology systems
                         for Angola, with strategic coordination from the United States.
                     </p>

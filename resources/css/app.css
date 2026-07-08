@@ -8,6 +8,9 @@
 @theme {
     --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    --color-accent: #a8862a;
+    --color-accent-soft: #c9a642;
 }
 
 @layer base {
@@ -35,5 +38,42 @@
 
     .site-main .text-xs {
         @apply leading-relaxed;
+    }
+
+    /* Institutional display type: serif headings across all pages. */
+    .site-main h1,
+    .site-main h2 {
+        @apply font-serif tracking-tight;
+    }
+
+    .site-main h1 {
+        @apply leading-[1.12];
+    }
+
+    /* Section eyebrow with short accent rule. */
+    .site-eyebrow {
+        @apply flex items-center gap-3 text-xs font-semibold tracking-[0.2em] uppercase text-accent;
+    }
+
+    .site-eyebrow::before {
+        content: '';
+        @apply block h-px w-7 bg-accent-soft;
+    }
+
+    /* Card elevation on hover — applies to existing bordered cards. */
+    .site-main .rounded-lg.border {
+        @apply transition-all duration-300;
+    }
+
+    .site-main .rounded-lg.border:hover {
+        @apply -translate-y-0.5 border-zinc-300 shadow-[0_14px_30px_rgba(24,24,27,0.07)];
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .site-main .rounded-lg.border,
+    .site-main .rounded-lg.border:hover {
+        transition: none;
+        transform: none;
     }
 }

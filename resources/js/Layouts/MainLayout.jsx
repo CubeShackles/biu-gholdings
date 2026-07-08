@@ -29,7 +29,7 @@ export default function MainLayout({ title, children }) {
     return (
         <div className="flex min-h-screen flex-col bg-zinc-50 text-zinc-900">
             <PageHead title={title} />
-            <header className="border-b border-zinc-200 bg-white">
+            <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/85 backdrop-blur-md">
                 <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-5 sm:px-6">
                     <SiteLink
                         routeName={isPt ? 'home.pt' : 'home'}
@@ -37,7 +37,9 @@ export default function MainLayout({ title, children }) {
                     >
                         <BrandLogo />
                         <div className="flex min-w-0 flex-col leading-tight">
-                            <span className="truncate text-sm font-medium text-zinc-900">Biu-g Holdings</span>
+                            <span className="truncate font-serif text-[15px] font-semibold tracking-wide text-zinc-900">
+                                Biu-g Holdings
+                            </span>
                             <span className="truncate text-[11px] text-zinc-500">
                                 {isPt ? 'Estados Unidos e Angola' : 'United States and Angola'}
                             </span>
@@ -48,7 +50,7 @@ export default function MainLayout({ title, children }) {
                             <SiteLink
                                 key={routeName}
                                 routeName={routeName}
-                                className="whitespace-nowrap transition-colors hover:text-zinc-900"
+                                className="whitespace-nowrap border-b border-transparent pb-0.5 transition-colors hover:border-accent-soft hover:text-zinc-900"
                             >
                                 {label}
                             </SiteLink>
@@ -75,9 +77,15 @@ export default function MainLayout({ title, children }) {
             <main className="site-main flex flex-1 flex-col">
                 <div className="flex flex-1 flex-col">{children}</div>
             </main>
-            <footer className="mt-auto shrink-0 border-t border-zinc-200 bg-white">
-                <div className="mx-auto w-full max-w-6xl px-4 py-5 sm:px-6 sm:py-6">
-                    <p className="text-xs leading-relaxed text-zinc-500">
+            <footer className="mt-auto shrink-0 border-t border-zinc-800 bg-zinc-950">
+                <div className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
+                    <p className="font-serif text-sm font-semibold tracking-[0.14em] text-zinc-100 uppercase">
+                        Biu-g Holdings
+                    </p>
+                    <p className="mt-1.5 text-[11px] tracking-wide text-zinc-500">
+                        {isPt ? 'Estados Unidos e Angola' : 'United States and Angola'}
+                    </p>
+                    <p className="mt-5 text-xs leading-relaxed text-zinc-500">
                         {isPt
                             ? '© 2026 Biu-g Holdings. Todos os direitos reservados.'
                             : '© 2026 Biu-g Holdings. All rights reserved.'}
