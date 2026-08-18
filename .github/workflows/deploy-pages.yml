@@ -85,4 +85,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - run: rm -rf site/.git
       - run: node repo/scripts/verify-pages-artifact.mjs site
