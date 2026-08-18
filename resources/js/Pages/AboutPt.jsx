@@ -8,13 +8,12 @@ export default function AboutPt() {
                 <header className="space-y-3">
                     <p className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">Sobre a Biu-g Holdings</p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">
-                        A Construção da Infraestrutura Institucional de África para os Próximos 50 Anos
+                        Construir Sistemas Duradouros para os Próximos 50 Anos
                     </h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        A Biu-g Holdings é uma plataforma global de holdings criada para arquitetar a próxima geração
-                        de infraestrutura financeira, tecnológica e institucional para Angola e África. Operamos entre os
-                        Estados Unidos, Portugal e Angola com um único mandato: construir sistemas que sobrevivem a ciclos
-                        de mercado e ciclos políticos.
+                        A Biu-g Holdings é uma plataforma global de holdings criada para arquitetar a próxima geração de
+                        sistemas financeiros e tecnológicos para Angola. Operamos entre os Estados Unidos e Angola com um
+                        único mandato: construir sistemas que sobrevivem a ciclos de mercado e ciclos políticos.
                     </p>
                 </header>
 
@@ -22,8 +21,8 @@ export default function AboutPt() {
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4">
                         <h2 className="text-sm font-semibold text-zinc-900">Missão</h2>
                         <p className="text-xs text-zinc-600">
-                            Desenhar, deter e operar plataformas de nível institucional que tornem as economias africanas
-                            investíveis, transparentes e interoperáveis — começando por Angola.
+                            Desenhar, deter e operar plataformas duradouras que tornem as economias investíveis,
+                            transparentes e interoperáveis — começando por Angola.
                         </p>
                     </div>
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4">
@@ -36,7 +35,7 @@ export default function AboutPt() {
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4">
                         <h2 className="text-sm font-semibold text-zinc-900">Mandato</h2>
                         <p className="text-xs text-zinc-600">
-                            Construir plataformas de longa duração em finanças, infraestrutura, dados e educação que se
+                            Construir plataformas de longa duração em finanças, dados e educação que se
                             compõem ao longo de décadas, e não trimestres, mantendo alinhamento total com reguladores e
                             prioridades nacionais.
                         </p>
@@ -56,8 +55,8 @@ export default function AboutPt() {
                             </h3>
                             <p className="mt-1 text-xs text-zinc-600">
                                 Através da CubeShackles, da Biu-g Investment Management e do grupo FGMS, desenhamos rails
-                                robustos nativos em AOA, infraestrutura de crédito e veículos
-                                institucionais orientados para os mercados de capitais e reguladores angolanos.
+                                robustos nativos em AOA, sistemas de crédito e veículos de capital orientados para os
+                                mercados e reguladores angolanos.
                             </p>
                         </div>
                         <div className="rounded-lg border border-zinc-200 bg-white p-4">
@@ -86,7 +85,7 @@ export default function AboutPt() {
                             </h3>
                             <p className="mt-1 text-xs text-zinc-600">
                                 {linkAcademyInText(
-                                    'A BIU.G Academy e as estruturas fiduciárias do grupo existem para proteger trabalhadores, alinhar executivos e formar a próxima geração de builders e líderes institucionais africanos.',
+                                    'A BIU.G Academy e as estruturas fiduciárias do grupo existem para proteger trabalhadores, alinhar executivos e formar a próxima geração de builders e líderes.',
                                 )}
                             </p>
                         </div>
@@ -119,7 +118,7 @@ export default function AboutPt() {
                     <p className="text-sm text-zinc-600">
                         A Biu-g Holdings não otimiza para hype de curto prazo. O nosso mapa estratégico mede-se em décadas
                         — arcos de 15, 29 e 50 anos — em que cada entidade, fundo e plataforma se compõem numa
-                        infraestrutura nacional e continental mais forte.
+                        stack de plataformas nacionais mais forte.
                     </p>
                     <p className="text-sm text-zinc-600">
                         Disciplina antes da escala. Responsabilidade antes da adoção. Transparência antes da tecnologia.

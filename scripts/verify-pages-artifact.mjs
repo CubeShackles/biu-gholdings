@@ -167,6 +167,30 @@ if (!indexHtml.includes('/assets/') || !indexHtml.includes('id="app"')) {
     errors.push('index.html is not a valid institutional frontend shell');
 }
 
+const artifactForbidden = [
+    /mucho\s*dinero/i,
+    /\bunitel\b/i,
+    /\bmovicel\b/i,
+    /\bbodiva\b/i,
+    /\bnasdaq\b/i,
+    /\bpre-?seed\b/i,
+    /\bdual\s+ipo\b/i,
+    /\bdata\s+room\b/i,
+    /\bfrontend-?only\b/i,
+];
+
+for (const file of allFiles) {
+    if (!/\.(html|js|css)$/.test(file)) {
+        continue;
+    }
+    const content = readFileSync(file, 'utf8');
+    for (const pattern of artifactForbidden) {
+        if (pattern.test(content)) {
+            errors.push(`Forbidden term in published artifact: ${relative(publishDir, file)} (${pattern})`);
+        }
+    }
+}
+
 const minExpectedFiles = allowedRootFiles.size + allowedRouteDirs.size + 1;
 if (allFiles.length < minExpectedFiles) {
     errors.push(`Too few files in artifact (expected at least ${minExpectedFiles}, got ${allFiles.length})`);

@@ -5,8 +5,7 @@ const SITE_ORIGIN = 'https://biu-gholdings.org';
 
 const COPY = {
     en: {
-        fallbackBody:
-            'The contact form is temporarily unavailable. Please contact Biu-g Holdings LLC directly through the email above.',
+        fallbackBody: 'Please contact Biu-g Holdings directly.',
         emailLabel: 'Email',
         intro: 'Regulators, qualified institutional parties, media, and corporate stakeholders may send a message below. Please include your organization and subject of inquiry.',
         fullName: 'Full name',
@@ -31,8 +30,7 @@ const COPY = {
             'This website does not constitute an offer to sell, solicitation to buy, or recommendation regarding any securities, tokens, funds, or investment products.',
     },
     pt: {
-        fallbackBody:
-            'O formulário de contacto está temporariamente indisponível. Contacte a Biu-g Holdings LLC diretamente através do email acima.',
+        fallbackBody: 'Contacte a Biu-g Holdings diretamente.',
         emailLabel: 'Email',
         intro: 'Reguladores, partes institucionais qualificadas, media e stakeholders corporativos podem enviar uma mensagem abaixo. Inclua a sua organização e assunto do pedido.',
         fullName: 'Nome completo',

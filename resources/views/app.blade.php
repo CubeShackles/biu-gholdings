@@ -9,7 +9,7 @@
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
         <link href="https://fonts.bunny.net/css?family=inter:400,500,600&display=swap" rel="stylesheet">
-        <title inertia>{{ config('app.name', 'Biu-g Holdings LLC') }}</title>
+        <title inertia>{{ config('app.name', 'Biu-g Holdings') }}</title>
         @routes
         @viteReactRefresh
         @vite(['resources/js/app.jsx', 'resources/css/app.css'])

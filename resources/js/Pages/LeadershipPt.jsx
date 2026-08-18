@@ -6,13 +6,13 @@ const executives = [
         name: 'Fábio G. Massanga',
         role: 'Sócio-Gerente, Fundador, Presidente & CEO da CubeShackles, Inc.',
         location: 'Angola / Estados Unidos',
-        bio: 'Sócio-Gerente da Biu-g Holdings e Presidente & CEO da CubeShackles, Inc. Lidera a estratégia de longo prazo do grupo entre Angola, Portugal e Estados Unidos, com foco em infraestrutura financeira de nível institucional, sistemas digitais, plataformas nacionais e alinhamento regulatório.',
+        bio: 'Sócio-Gerente da Biu-g Holdings e Presidente & CEO da CubeShackles, Inc. Lidera a estratégia de longo prazo do grupo entre os Estados Unidos e Angola, com foco em sistemas financeiros, plataformas digitais e alinhamento regulatório.',
     },
     {
         name: 'José Quembi',
         role: 'Chief Technology Officer (CTO)',
         location: 'Lubango, Angola',
-        bio: 'Responsável pela arquitectura técnica e implementação da CubeShackles, Angola National Wallet, Terminal BualaBuitu e do ecossistema de developers, com foco em infraestrutura offline-first, nativa em AOA.',
+        bio: 'Responsável pela arquitectura técnica e implementação da CubeShackles, Angola National Wallet, Terminal BualaBuitu e do ecossistema de developers, com foco em sistemas offline-first, nativos em AOA.',
     },
 ];
 
@@ -24,10 +24,10 @@ export default function LeadershipPt() {
                     <p className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">Liderança</p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">Liderança &amp; Governação</h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        A Biu-g Holdings é liderada por operadores que combinam execução no terreno em Angola com uma
-                        visão global de mercados de capitais, tecnologia e alinhamento regulatório. A liderança do grupo
-                        é estruturada para equilibrar prioridades nacionais, disciplina institucional e criação de valor
-                        sustentável para os acionistas.
+                        A Biu-g Holdings é liderada por operadores que combinam execução no terreno com uma visão global de
+                        mercados de capitais, tecnologia e alinhamento regulatório. A liderança é estruturada para
+                        equilibrar prioridades nacionais, governance disciplinada e criação de valor sustentável para os
+                        acionistas.
                     </p>
                 </header>
 
@@ -69,7 +69,7 @@ export default function LeadershipPt() {
                     </ul>
                     <p className="text-sm text-zinc-600">
                         {linkAcademyInText(
-                            'O objetivo é simples: garantir que cada plataforma core — CubeShackles, FGMS, PraçaNgola, National Data Platform, BIU.G Academy — opera com o mesmo grau de disciplina esperado de instituições globais, mantendo ao mesmo tempo um enraizamento real na realidade angolana.',
+                            'O objetivo é simples: garantir que cada plataforma core — CubeShackles, FGMS, PraçaNgola, National Data Platform, BIU.G Academy — opera com a disciplina esperada de padrões globais, mantendo enraizamento nas realidades nacionais.',
                         )}
                     </p>
                 </section>

@@ -10,13 +10,13 @@ export default function ContactPt() {
                     <p className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">Contacto</p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">Contactar a Biu-g Holdings</h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        Para coordenação regulatória, parcerias institucionais e pedidos corporativos nos Estados Unidos,
-                        Portugal e Angola, contacte o escritório do grupo através do canal abaixo.
+                        Para coordenação regulatória, parcerias e pedidos corporativos nos Estados Unidos e Angola,
+                        contacte o escritório do grupo através do canal abaixo.
                     </p>
                 </header>
 
                 <section className="space-y-4">
-                    <h2 className="text-lg font-semibold text-zinc-900 md:text-xl">Contacto Corporativo &amp; Institucional</h2>
+                    <h2 className="text-lg font-semibold text-zinc-900 md:text-xl">Contacto Corporativo</h2>
                     <ContactInquiryForm locale="pt" />
                 </section>
 

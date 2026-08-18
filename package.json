@@ -7,6 +7,7 @@
         "build:pages": "vite build --config vite.config.pages.js && node scripts/build-pages.mjs",
         "build:static": "npm run build:pages",
         "verify:pages": "node scripts/verify-pages-artifact.mjs dist-pages-publish",
+        "audit:public": "node scripts/audit-public-release.mjs",
         "dev": "vite",
         "dev:pages": "vite --config vite.config.pages.js"
     },

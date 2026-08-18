@@ -10,13 +10,13 @@ export default function Contact() {
                     <p className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">Contact</p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">Contact Biu-g Holdings</h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        For regulatory coordination, institutional partnerships, and corporate inquiries across the
-                        United States, Portugal, and Angola, contact the group office using the channel below.
+                        For regulatory coordination, partnerships, and corporate inquiries across the United States and
+                        Angola, contact the group office using the channel below.
                     </p>
                 </header>
 
                 <section className="space-y-4">
-                    <h2 className="text-lg font-semibold text-zinc-900 md:text-xl">Corporate &amp; Institutional Contact</h2>
+                    <h2 className="text-lg font-semibold text-zinc-900 md:text-xl">Corporate Contact</h2>
                     <ContactInquiryForm locale="en" />
                 </section>
 

@@ -1,7 +1,8 @@
 import AcademyLink, { ACADEMY_NAME } from '@/Components/AcademyLink';
 import FounderLink, { FOUNDER_NAME } from '@/Components/FounderLink';
+import { CONTROLLED_EXTERNAL_LINKS } from '@/lib/controlledExternalLinks';
 
-export { FOUNDER_NAME, ACADEMY_NAME };
+export { FOUNDER_NAME, ACADEMY_NAME, CONTROLLED_EXTERNAL_LINKS };
 
 export function renderLinkedEntityName(name, className = '') {
     if (name === FOUNDER_NAME) {
@@ -28,6 +29,27 @@ export function linkAcademyInText(text) {
         }
         if (index < segments.length - 1) {
             nodes.push(<AcademyLink key={`academy-${index}`} />);
+        }
+    });
+
+    return nodes;
+}
+
+/** Splits prose on the founder name and inserts outbound links (no nested anchors). */
+export function linkFounderInText(text) {
+    if (!text.includes(FOUNDER_NAME)) {
+        return text;
+    }
+
+    const segments = text.split(FOUNDER_NAME);
+    const nodes = [];
+
+    segments.forEach((segment, index) => {
+        if (segment) {
+            nodes.push(segment);
+        }
+        if (index < segments.length - 1) {
+            nodes.push(<FounderLink key={`founder-${index}`} />);
         }
     });
 

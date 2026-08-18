@@ -10,13 +10,12 @@ export default function About() {
                         About Biu-g Holdings
                     </p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">
-                        Building Africa’s Institutional Infrastructure for the Next 50 Years
+                        Building Durable Systems for the Next 50 Years
                     </h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        Biu-g Holdings is a global holdings platform created to architect the next generation of
-                        financial, technological and institutional infrastructure for Angola and Africa. We operate
-                        across jurisdictions — United States, Portugal and Angola — with one mandate: build systems
-                        that outlive market cycles and political cycles.
+                        Biu-g Holdings is a global holdings platform created to architect the next generation of financial
+                        and technology systems for Angola. We operate across the United States and Angola with one
+                        mandate: build systems that outlive market cycles and political cycles.
                     </p>
                 </header>
 
@@ -24,8 +23,8 @@ export default function About() {
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4">
                         <h2 className="text-sm font-semibold text-zinc-900">Mission</h2>
                         <p className="text-xs text-zinc-600">
-                            To design, own and operate institutional-grade platforms that turn African economies into
-                            investable, transparent and interoperable systems — starting with Angola.
+                            To design, own and operate durable platforms that make economies investable, transparent and
+                            interoperable — starting with Angola.
                         </p>
                     </div>
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4">
@@ -38,7 +37,7 @@ export default function About() {
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4">
                         <h2 className="text-sm font-semibold text-zinc-900">Mandate</h2>
                         <p className="text-xs text-zinc-600">
-                            To build long-duration platforms in finance, infrastructure, data and education that
+                            To build long-duration platforms in finance, data and education that
                             compound over decades, not quarters, while remaining fully aligned with regulators and
                             national priorities.
                         </p>
@@ -58,8 +57,8 @@ export default function About() {
                             </h3>
                             <p className="mt-1 text-xs text-zinc-600">
                                 Through CubeShackles, Biu-g Investment Management and the FGMS group, we design robust
-                                AOA-native rails, credit infrastructure, and institutional vehicles built for Angola’s
-                                capital markets and regulators.
+                                AOA-native rails, credit systems, and capital vehicles built for Angola’s markets and
+                                regulators.
                             </p>
                         </div>
                         <div className="rounded-lg border border-zinc-200 bg-white p-4">
@@ -88,7 +87,7 @@ export default function About() {
                             </h3>
                             <p className="mt-1 text-xs text-zinc-600">
                                 {linkAcademyInText(
-                                    'BIU.G Academy and the fiduciary structures behind the group are built to protect workers, align executives and train the next generation of African builders and institutional leaders.',
+                                    'BIU.G Academy and the fiduciary structures behind the group are built to protect workers, align executives and train the next generation of builders and leaders.',
                                 )}
                             </p>
                         </div>
@@ -120,7 +119,7 @@ export default function About() {
                     <p className="text-sm text-zinc-600">
                         Biu-g Holdings does not optimize for short-term hype. Our roadmap is measured in decades — 15-year,
                         29-year and 50-year arcs — where each entity, fund and platform compounds into a stronger
-                        national and continental infrastructure stack.
+                        national platform stack.
                     </p>
                     <p className="text-sm text-zinc-600">
                         Discipline before scale. Responsibility before adoption. Transparency before technology.

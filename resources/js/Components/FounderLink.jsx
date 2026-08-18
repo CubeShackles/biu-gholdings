@@ -1,7 +1,8 @@
 import ExternalLink from '@/Components/ExternalLink';
+import { CONTROLLED_EXTERNAL_LINKS } from '@/lib/controlledExternalLinks';
 
-export const FOUNDER_NAME = 'Fábio G. Massanga';
-export const FOUNDER_PROFILE_URL = 'https://fabiomassanga.com';
+export const FOUNDER_NAME = CONTROLLED_EXTERNAL_LINKS.founder.name;
+export const FOUNDER_PROFILE_URL = CONTROLLED_EXTERNAL_LINKS.founder.href;
 
 export default function FounderLink({ children = FOUNDER_NAME, className = '' }) {
     return (

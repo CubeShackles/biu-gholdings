@@ -29,28 +29,28 @@ export default function MainLayout({ title, children }) {
     return (
         <div className="flex min-h-screen flex-col bg-zinc-50 text-zinc-900">
             <PageHead title={title} />
-            <header className="border-b border-zinc-200 bg-white">
-                <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-4">
+            <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/85 backdrop-blur-md">
+                <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-5 sm:px-6">
                     <SiteLink
                         routeName={isPt ? 'home.pt' : 'home'}
-                        className="flex min-w-0 items-center gap-3"
+                        className="flex min-w-0 items-center gap-2.5"
                     >
-                        <BrandLogo className="h-10 w-10 shrink-0 object-contain" />
+                        <BrandLogo />
                         <div className="flex min-w-0 flex-col leading-tight">
-                            <span className="truncate text-sm font-semibold">Biu-g Holdings</span>
-                            <span className="truncate text-xs text-zinc-500">
-                                {isPt
-                                    ? 'Infraestrutura corporativa para África'
-                                    : 'Corporate infrastructure for Africa'}
+                            <span className="truncate font-serif text-[15px] font-semibold tracking-wide text-zinc-900">
+                                Biu-g Holdings
+                            </span>
+                            <span className="truncate text-[11px] text-zinc-500">
+                                {isPt ? 'Estados Unidos e Angola' : 'United States and Angola'}
                             </span>
                         </div>
                     </SiteLink>
-                    <nav className="hidden flex-wrap items-center gap-5 text-xs font-medium text-zinc-700 lg:flex">
+                    <nav className="hidden items-center gap-7 text-xs font-normal tracking-wide text-zinc-600 lg:flex xl:gap-8">
                         {nav.map(([label, routeName]) => (
                             <SiteLink
                                 key={routeName}
                                 routeName={routeName}
-                                className="whitespace-nowrap hover:text-zinc-900"
+                                className="whitespace-nowrap border-b border-transparent pb-0.5 transition-colors hover:border-accent-soft hover:text-zinc-900"
                             >
                                 {label}
                             </SiteLink>
@@ -61,22 +61,35 @@ export default function MainLayout({ title, children }) {
                     </div>
                 </div>
                 <div className="border-t border-zinc-100 bg-white lg:hidden">
-                    <nav className="mx-auto flex max-w-6xl flex-wrap gap-x-4 gap-y-2 px-4 py-3 text-xs font-medium text-zinc-700">
+                    <nav className="mx-auto flex max-w-6xl flex-wrap gap-x-5 gap-y-2.5 px-4 py-3.5 text-xs font-normal tracking-wide text-zinc-600 sm:px-6">
                         {nav.map(([label, routeName]) => (
-                            <SiteLink key={routeName} routeName={routeName} className="hover:text-zinc-900">
+                            <SiteLink
+                                key={routeName}
+                                routeName={routeName}
+                                className="transition-colors hover:text-zinc-900"
+                            >
                                 {label}
                             </SiteLink>
                         ))}
                     </nav>
                 </div>
             </header>
-            <main className="flex-1">{children}</main>
-            <footer className="mt-auto border-t border-zinc-200 bg-white">
-                <div className="mx-auto max-w-6xl px-4 py-4 text-xs text-zinc-500">
-                    <span>
-                        © {new Date().getFullYear()} Biu-g Holdings LLC.{' '}
-                        {isPt ? 'Todos os direitos reservados.' : 'All rights reserved.'}
-                    </span>
+            <main className="site-main flex flex-1 flex-col">
+                <div className="flex flex-1 flex-col">{children}</div>
+            </main>
+            <footer className="mt-auto shrink-0 border-t border-zinc-800 bg-zinc-950">
+                <div className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
+                    <p className="font-serif text-sm font-semibold tracking-[0.14em] text-zinc-100 uppercase">
+                        Biu-g Holdings
+                    </p>
+                    <p className="mt-1.5 text-[11px] tracking-wide text-zinc-500">
+                        {isPt ? 'Estados Unidos e Angola' : 'United States and Angola'}
+                    </p>
+                    <p className="mt-5 text-xs leading-relaxed text-zinc-500">
+                        {isPt
+                            ? '© 2026 Biu-g Holdings. Todos os direitos reservados.'
+                            : '© 2026 Biu-g Holdings. All rights reserved.'}
+                    </p>
                 </div>
             </footer>
         </div>

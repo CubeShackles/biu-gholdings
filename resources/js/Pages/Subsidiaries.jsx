@@ -1,3 +1,4 @@
+import EntityStatusBadge from '@/Components/EntityStatusBadge';
 import MainLayout from '@/Layouts/MainLayout';
 import { renderLinkedEntityName } from '@/lib/publicLinks';
 
@@ -6,24 +7,24 @@ const clusters = [
         title: 'CubeShackles Group – Core Technology & Infrastructure',
         items: [
             {
-                name: 'CubeShackles, Inc. (Delaware C-Corp, USA)',
+                name: 'CubeShackles, Inc. (USA)',
                 type: 'Technology / IP Company',
-                status: 'Active',
+                status: 'operating',
                 description:
                     'Global technology and intellectual property company for the CubeShackles ecosystem. Responsible for protocol research, software architecture, brand stewardship, and future licensing frameworks.',
             },
             {
-                name: 'CubeShackles, S.A. (Angola)',
+                name: 'CubeShackles, S.A.',
                 type: 'Operating Company',
-                status: 'Planned / In Formation',
+                status: 'formation',
                 description:
-                    'Angola-focused operating company intended to localize CubeShackles infrastructure for national use cases, regulatory alignment, and future institutional partnerships, subject to applicable approvals.',
+                    'National operating company localizing CubeShackles for national platforms, regulatory alignment, and regulated partnerships.',
             },
             {
                 name: 'National Data Platform',
                 platform: 'Platform inside CubeShackles, S.A.',
                 type: 'Data Platform',
-                status: 'Product (Spin-out Optional)',
+                status: 'groupProduct',
                 description:
                     'Economic and social data platform — inflation, unemployment, informal markets, local price indices and access metrics.',
             },
@@ -31,7 +32,7 @@ const clusters = [
                 name: 'Kulifikila',
                 platform: 'Platform inside CubeShackles, S.A.',
                 type: 'Credit Intelligence Platform',
-                status: 'Product (Spin-out Optional)',
+                status: 'groupProduct',
                 description:
                     'Credit intelligence for formal and informal sectors, with multi-layer AOA credit scoring and risk intelligence.',
             },
@@ -39,7 +40,7 @@ const clusters = [
                 name: 'Angola National Transit Platform',
                 platform: 'Platform inside CubeShackles, S.A.',
                 type: 'Mobility / Transit',
-                status: 'Product (Spin-out Optional)',
+                status: 'groupProduct',
                 description:
                     'National mobility application for drivers and riders, with integrated payment and tax rails.',
             },
@@ -47,7 +48,7 @@ const clusters = [
                 name: 'PraçaNgola',
                 platform: 'Platform inside CubeShackles, S.A.',
                 type: 'E-commerce Infrastructure',
-                status: 'Product (Spin-out Optional)',
+                status: 'groupProduct',
                 description:
                     'National e-commerce and logistics platform for Angola and regional scale.',
             },
@@ -55,7 +56,7 @@ const clusters = [
                 name: 'BualaBuitu Terminal',
                 platform: 'Platform inside CubeShackles, S.A.',
                 type: 'Market Intelligence Platform',
-                status: 'Product (Spin-out Optional)',
+                status: 'groupProduct',
                 description:
                     'Financial market intelligence terminal for real-time data, analytics, and market infrastructure.',
             },
@@ -65,44 +66,44 @@ const clusters = [
         title: 'FGM / FGMS & Investment Cluster',
         items: [
             {
-                name: 'FGM Capital, Lda. (Angola)',
+                name: 'FGM Capital, Lda.',
                 type: 'Trading & Capital',
-                status: 'Planned / In Formation',
+                status: 'formation',
                 description:
-                    'Trading and capital markets entity focused on proprietary strategies, capital formation, treasury operations and long-term financial structuring activities across Angola and African markets.',
+                    'Trading and capital markets entity focused on proprietary strategies, capital formation, treasury operations and long-term financial structuring across regional markets.',
             },
             {
-                name: 'Grupo FGMS & Associados, Lda. (Angola)',
+                name: 'Grupo FGMS & Associados, Lda.',
                 type: 'Integrated Financial Platform',
-                status: 'Planned / In Formation',
+                status: 'formation',
                 description:
-                    'Integrated financial platform designed to support multi-strategy capital operations, investment structuring, treasury coordination and long-term institutional development across Angola.',
+                    'Integrated financial platform designed to support multi-strategy capital operations, investment structuring, treasury coordination and long-term development across national markets.',
             },
             {
-                name: 'Biu-g Investment Management, Lda. (Angola)',
+                name: 'Biu-g Investment Management, Lda.',
                 type: 'Asset Management',
-                status: 'Planned / In Formation',
+                status: 'formation',
                 description:
                     'AOA-focused asset management platform designed to operate dedicated investment vehicles across public markets, strategic sectors and long-term national capital development initiatives.',
             },
             {
-                name: '1975 Nzila, Lda. (Angola)',
+                name: '1975 Nzila, Lda.',
                 type: 'VC / PE & Experiences',
-                status: 'Planned',
+                status: 'formation',
                 description:
                     'Planned local investment and brand experience vehicle within the Biu-g Holdings ecosystem.',
             },
             {
                 name: 'FGMS & Co.',
                 type: 'Real Estate Operations',
-                status: 'Planned',
+                status: 'formation',
                 description:
                     'Planned real estate operating arm for Angola and Portugal within the group structure.',
             },
             {
                 name: 'FGM & Co.',
                 type: 'Advisory & Structuring SPV',
-                status: 'Planned',
+                status: 'formation',
                 description:
                     'Planned financial structuring and co-investment vehicle for group transactions.',
             },
@@ -112,25 +113,25 @@ const clusters = [
         title: 'Fiduciary & Education',
         items: [
             {
-                name: 'Fundo Fiduciário Estratégico (Angola)',
+                name: 'Fundo Fiduciário Estratégico',
                 type: 'Fiduciary Vehicle',
-                status: 'Planned',
+                status: 'formation',
                 description:
-                    'Planned internal fiduciary structure supporting continuity and alignment within the Biu-g group.',
+                    'Planned group fiduciary structure supporting continuity and alignment within the Biu-g group.',
             },
             {
                 name: 'Sango Trust',
                 type: 'Trust Vehicle',
-                status: 'Active',
+                status: 'operating',
                 description:
                     'Private fiduciary and long-term asset stewardship structure supporting intergenerational governance, succession planning, and strategic capital preservation within the Biu-g Holdings ecosystem.',
             },
             {
                 name: 'BIU.G Academy',
                 type: 'Education / Capacity Building',
-                status: 'Active',
+                status: 'operating',
                 description:
-                    'Active educational and capacity-building initiative focused on technology, financial literacy, digital infrastructure, and AI-native workforce development across Angola and Africa, with research, training, and community-led learning aligned with the Biu-g Holdings mission.',
+                    'Active educational and capacity-building initiative focused on technology, financial literacy, digital systems, and AI-native workforce development, with research, training, and community-led learning aligned with the Biu-g Holdings mission.',
             },
         ],
     },
@@ -145,7 +146,7 @@ export default function Subsidiaries() {
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">Subsidiaries &amp; Portfolio Companies</h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
                         Biu-g Holdings operates a multi-entity portfolio across technology, finance, data, mobility,
-                        e-commerce, media and education. Listed entities are group-controlled or planned internal vehicles.
+                        e-commerce, media and education. Listed entities are group-controlled or planned group vehicles.
                     </p>
                     <p className="rounded-lg border border-amber-200 bg-amber-50/50 p-4 text-xs leading-relaxed text-zinc-600">
                         References to planned entities may evolve as legal and regulatory conditions change. This page does
@@ -171,9 +172,7 @@ export default function Subsidiaries() {
                                             <p className="text-[11px] font-medium text-zinc-500">{item.platform}</p>
                                         )}
                                         <p className="text-[11px] font-medium text-zinc-700">{item.type}</p>
-                                        <p className="text-[11px] text-zinc-500">
-                                            Status: <span className="font-medium">{item.status}</span>
-                                        </p>
+                                        <EntityStatusBadge status={item.status} locale="en" />
                                     </div>
                                     <p className="mt-3 text-xs leading-relaxed text-zinc-600">{item.description}</p>
                                 </article>

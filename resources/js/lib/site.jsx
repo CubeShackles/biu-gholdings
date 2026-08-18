@@ -17,9 +17,12 @@ function parseInertiaComponent(raw) {
 export function useSite() {
     if (isStaticSite) {
         const { pathname } = useLocation();
+        // Static hosting serves routes with a trailing slash (e.g. /pt/);
+        // route map keys are slash-less, so normalize before lookup.
+        const normalizedPath = pathname.length > 1 ? pathname.replace(/\/+$/, '') : pathname;
 
         return {
-            pageComponent: pathToComponent[pathname] ?? 'Home',
+            pageComponent: pathToComponent[normalizedPath] ?? 'Home',
         };
     }
 

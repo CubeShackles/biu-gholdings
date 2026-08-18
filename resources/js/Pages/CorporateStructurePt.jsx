@@ -1,4 +1,5 @@
 import AcademyLink from '@/Components/AcademyLink';
+import EntityStatusBadge from '@/Components/EntityStatusBadge';
 import MainLayout from '@/Layouts/MainLayout';
 import { linkAcademyInText } from '@/lib/publicLinks';
 
@@ -12,13 +13,14 @@ export default function CorporateStructurePt() {
                     </p>
                     <h1 className="text-3xl font-semibold text-zinc-900 md:text-4xl">Estrutura Corporativa</h1>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        A Biu-g Holdings opera através de uma estrutura multi-camada nos Estados Unidos, Portugal e
-                        Angola. Esta página descreve entidades controladas pelo grupo e veículos planeados apenas para
-                        transparência pública.
+                        A Biu-g Holdings opera através de uma estrutura multi-camada nos Estados Unidos e Angola. Esta
+                        página descreve entidades controladas pelo grupo e veículos planeados apenas para transparência
+                        pública.
                     </p>
                     <p className="text-sm leading-relaxed text-zinc-600 md:text-base">
-                        O grupo está organizado em clusters estratégicos em tecnologia, finanças, infraestrutura, dados,
-                        educação e veículos fiduciários.
+                        O grupo está organizado em clusters estratégicos em tecnologia, finanças, dados, educação e
+                        veículos fiduciários. A SGPS portuguesa e os veículos de participação são descritos na secção de
+                        holdings abaixo.
                     </p>
                     <div className="rounded-lg border border-amber-200 bg-amber-50/50 p-4 text-xs leading-relaxed text-zinc-600 md:p-5">
                         <p>
@@ -46,7 +48,7 @@ export default function CorporateStructurePt() {
                     <h2 className="text-xl font-semibold text-zinc-900 md:text-2xl">2. Veículos de Participações e Holdings</h2>
                     <div className="grid gap-4 md:grid-cols-2">
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">Biu-g SGPS, Lda. (Portugal)</h3>
+                            <h3 className="text-lg font-semibold text-zinc-900">Biu-g SGPS, Lda.</h3>
                             <p className="text-sm text-zinc-600">
                                 Holding SGPS portuguesa. Atua como veículo de participação europeia e estrutura de
                                 diversificação.
@@ -54,11 +56,11 @@ export default function CorporateStructurePt() {
                             <p className="text-sm text-zinc-600">
                                 <span className="font-medium">Papel acionista:</span> detém participação direta na{' '}
                                 <span className="font-medium">CubeShackles, Inc. (EUA)</span> e exposição indireta à{' '}
-                                <span className="font-medium">CubeShackles, S.A. (Angola)</span>.
+                                <span className="font-medium">CubeShackles, S.A.</span>.
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">Biu-g SGPS, Lda. (Angola)</h3>
+                            <h3 className="text-lg font-semibold text-zinc-900">Biu-g SGPS, Lda.</h3>
                             <p className="text-sm text-zinc-600">
                                 SGPS angolana que garante controlo nativo em Kwanza (AOA) e alinhamento com reguladores e
                                 instituições nacionais.
@@ -76,7 +78,7 @@ export default function CorporateStructurePt() {
                         3. Grupo CubeShackles — Tecnologia Core &amp; Infraestrutura Nacional
                     </h2>
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                        <h3 className="text-lg font-semibold text-zinc-900">CubeShackles, Inc. (Delaware C-Corp, EUA)</h3>
+                        <h3 className="text-lg font-semibold text-zinc-900">CubeShackles, Inc. (EUA)</h3>
                         <p className="text-sm text-zinc-600">
                             Empresa global de tecnologia e propriedade intelectual do ecossistema CubeShackles. Responsável
                             por investigação de protocolos, arquitetura de software, gestão de marca e futuros quadros de
@@ -85,11 +87,10 @@ export default function CorporateStructurePt() {
                     </div>
 
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                        <h3 className="text-lg font-semibold text-zinc-900">CubeShackles, S.A. (Angola)</h3>
+                        <h3 className="text-lg font-semibold text-zinc-900">CubeShackles, S.A.</h3>
                         <p className="text-sm text-zinc-600">
-                            Sociedade operacional focada em Angola, destinada a localizar a infraestrutura CubeShackles para
-                            casos de uso nacionais, alinhamento regulatório e futuras parcerias institucionais, sujeitas às
-                            aprovações aplicáveis.
+                            Sociedade operacional nacional que localiza a CubeShackles para plataformas nacionais,
+                            alinhamento regulatório e parcerias reguladas.
                         </p>
                     </div>
 
@@ -97,7 +98,7 @@ export default function CorporateStructurePt() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">National Data Platform</h3>
                             <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                            <p className="text-[11px] text-zinc-500">Produto (Spin-out Opcional)</p>
+                            <EntityStatusBadge status="groupProduct" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma de dados económicos e sociais — inflação, desemprego, mercados informais, índices
                                 de preços e métricas de acesso.
@@ -106,7 +107,7 @@ export default function CorporateStructurePt() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">Kulifikila</h3>
                             <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                            <p className="text-[11px] text-zinc-500">Produto (Spin-out Opcional)</p>
+                            <EntityStatusBadge status="groupProduct" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma de inteligência de crédito para sectores formal e informal, com scoring
                                 multi-camada em AOA e inteligência de risco.
@@ -115,7 +116,7 @@ export default function CorporateStructurePt() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">Angola National Transit Platform</h3>
                             <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                            <p className="text-[11px] text-zinc-500">Produto (Spin-out Opcional)</p>
+                            <EntityStatusBadge status="groupProduct" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Aplicação nacional de mobilidade para motoristas e passageiros, com rails de pagamento e
                                 fiscais integrados.
@@ -124,7 +125,7 @@ export default function CorporateStructurePt() {
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="text-lg font-semibold text-zinc-900">PraçaNgola</h3>
                             <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                            <p className="text-[11px] text-zinc-500">Produto (Spin-out Opcional)</p>
+                            <EntityStatusBadge status="groupProduct" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma nacional de e-commerce e logística para Angola e escala regional.
                             </p>
@@ -134,7 +135,7 @@ export default function CorporateStructurePt() {
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                         <h3 className="text-lg font-semibold text-zinc-900">BualaBuitu Terminal</h3>
                         <p className="text-xs font-medium text-zinc-500">Plataforma dentro da CubeShackles, S.A.</p>
-                        <p className="text-[11px] text-zinc-500">Produto (Spin-out Opcional)</p>
+                        <EntityStatusBadge status="groupProduct" locale="pt" />
                         <p className="text-sm text-zinc-600">
                             Terminal de inteligência de mercado financeiro para dados em tempo real, análises e
                             infraestrutura de mercado.
@@ -146,26 +147,26 @@ export default function CorporateStructurePt() {
                     <h2 className="text-xl font-semibold text-zinc-900 md:text-2xl">4. Grupo FGM / FGMS — Investimento &amp; Finanças</h2>
                     <div className="grid gap-4 md:grid-cols-2">
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">FGM Capital, Lda. (Angola)</h3>
-                            <p className="text-[11px] text-zinc-500">Planeado / Em Estruturação</p>
+                            <h3 className="text-lg font-semibold text-zinc-900">FGM Capital, Lda.</h3>
+                            <EntityStatusBadge status="formation" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Entidade de trading e mercados de capitais focada em estratégias proprietárias, formação de
                                 capital, operações de tesouraria e atividades de estruturação financeira de longo prazo em
-                                Angola e mercados africanos.
+                                mercados regionais.
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">Grupo FGMS &amp; Associados, Lda. (Angola)</h3>
-                            <p className="text-[11px] text-zinc-500">Planeado / Em Estruturação</p>
+                            <h3 className="text-lg font-semibold text-zinc-900">Grupo FGMS &amp; Associados, Lda.</h3>
+                            <EntityStatusBadge status="formation" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma financeira integrada desenhada para suportar operações de capital
                                 multi-estratégia, estruturação de investimento, coordenação de tesouraria e desenvolvimento
-                                institucional de longo prazo em Angola.
+                                de longo prazo nos mercados nacionais.
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">Biu-g Investment Management, Lda. (Angola)</h3>
-                            <p className="text-[11px] text-zinc-500">Planeado / Em Estruturação</p>
+                            <h3 className="text-lg font-semibold text-zinc-900">Biu-g Investment Management, Lda.</h3>
+                            <EntityStatusBadge status="formation" locale="pt" />
                             <p className="text-sm text-zinc-600">
                                 Plataforma de gestão de ativos focada em AOA, desenhada para operar veículos de investimento
                                 dedicados em mercados públicos, sectores estratégicos e iniciativas de desenvolvimento de
@@ -173,21 +174,30 @@ export default function CorporateStructurePt() {
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">1975 Nzila, Lda. (Angola) — Planeada</h3>
+                            <div className="flex flex-wrap items-center gap-2">
+                                <h3 className="text-lg font-semibold text-zinc-900">1975 Nzila, Lda.</h3>
+                                <EntityStatusBadge status="formation" locale="pt" />
+                            </div>
                             <p className="text-sm text-zinc-600">
                                 Veículo local de VC/PE e braço de hospitalidade/experiência de marca, ligado economicamente
                                 ao cluster FGMS e Biu-g Investment Management.
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">FGMS &amp; Co. — Planeada</h3>
+                            <div className="flex flex-wrap items-center gap-2">
+                                <h3 className="text-lg font-semibold text-zinc-900">FGMS &amp; Co.</h3>
+                                <EntityStatusBadge status="formation" locale="pt" />
+                            </div>
                             <p className="text-sm text-zinc-600">
                                 Veículo focado em operações imobiliárias em Angola e Portugal, alinhado com o grupo FGMS e as
                                 holdings.
                             </p>
                         </div>
                         <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                            <h3 className="text-lg font-semibold text-zinc-900">FGM &amp; Co. — Planeada</h3>
+                            <div className="flex flex-wrap items-center gap-2">
+                                <h3 className="text-lg font-semibold text-zinc-900">FGM &amp; Co.</h3>
+                                <EntityStatusBadge status="formation" locale="pt" />
+                            </div>
                             <p className="text-sm text-zinc-600">
                                 SPV para coinvestimento, advisory e estruturação financeira em operações estratégicas.
                             </p>
@@ -198,14 +208,14 @@ export default function CorporateStructurePt() {
                 <section className="space-y-4">
                     <h2 className="text-xl font-semibold text-zinc-900 md:text-2xl">5. Trusts &amp; Veículos Fiduciários</h2>
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
-                        <h3 className="text-lg font-semibold text-zinc-900">Fundo Fiduciário Estratégico (Angola) — Planeado</h3>
+                        <h3 className="text-lg font-semibold text-zinc-900">Fundo Fiduciário Estratégico</h3>
                         <p className="text-sm text-zinc-600">
                             Estrutura fiduciária interna planead para continuidade, alinhamento de stakeholders e interesses
                             denominados em AOA em nome da Biu-g Holdings no grupo.
                         </p>
                         <p className="text-sm text-zinc-600">
                             A representação é exercida através da{' '}
-                            <span className="font-medium">Sociedade de Participações BIU-G, Lda. (Angola)</span>.
+                            <span className="font-medium">Sociedade de Participações BIU-G, Lda.</span>.
                         </p>
                     </div>
                     <div className="space-y-2 rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
@@ -226,7 +236,7 @@ export default function CorporateStructurePt() {
                         </h3>
                         <p className="text-sm text-zinc-600">
                             {linkAcademyInText(
-                                'A BIU.G Academy é uma iniciativa ativa de educação e capacitação, focada em tecnologia, literacia financeira, infraestrutura digital e desenvolvimento de talento nativo em IA em Angola e África.',
+                                'A BIU.G Academy é uma iniciativa ativa de educação e capacitação, focada em tecnologia, literacia financeira, sistemas digitais e desenvolvimento de talento nativo em IA.',
                             )}
                         </p>
                         <p className="text-sm text-zinc-600">
@@ -268,18 +278,18 @@ export default function CorporateStructurePt() {
                             <h3 className="mb-2 text-sm font-semibold text-zinc-900">1. Holdings (SPVs &amp; SGPS)</h3>
                             <ul className="list-inside list-disc space-y-1 text-xs text-zinc-600">
                                 <li>Biu-g Holdings LLC (EUA)</li>
-                                <li>Biu-g SGPS (Portugal &amp; Angola)</li>
-                                <li>Sociedade de Participações BIU-G (Portugal &amp; Angola)</li>
+                                <li>Biu-g SGPS, Lda.</li>
+                                <li>Sociedade de Participações BIU-G, Lda.</li>
                             </ul>
                         </div>
                         <div className="rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="mb-2 text-sm font-semibold text-zinc-900">2. Plataformas Operacionais</h3>
                             <ul className="list-inside list-disc space-y-1 text-xs text-zinc-600">
                                 <li>CubeShackles, Inc. (EUA)</li>
-                                <li>CubeShackles, S.A. (Angola)</li>
-                                <li>FGM Capital, Lda. (Angola)</li>
-                                <li>Grupo FGMS &amp; Associados, Lda. (Angola)</li>
-                                <li>Biu-g Investment Management, Lda. (Angola)</li>
+                                <li>CubeShackles, S.A.</li>
+                                <li>FGM Capital, Lda.</li>
+                                <li>Grupo FGMS &amp; Associados, Lda.</li>
+                                <li>Biu-g Investment Management, Lda.</li>
                                 <li>
                                     National Data Platform, Kulifikila, PraçaNgola, Angola National Transit Platform,
                                     BualaBuitu Terminal (plataformas dentro da CubeShackles, S.A.); 1975 Nzila, FGMS
@@ -290,7 +300,7 @@ export default function CorporateStructurePt() {
                         <div className="rounded-lg border border-zinc-200 bg-white p-4 md:p-5">
                             <h3 className="mb-2 text-sm font-semibold text-zinc-900">3. Trust &amp; Educação</h3>
                             <ul className="list-inside list-disc space-y-1 text-xs text-zinc-600">
-                                <li>Fundo Fiduciário Estratégico (Angola)</li>
+                                <li>Fundo Fiduciário Estratégico</li>
                                 <li>Sango Trust</li>
                                 <li>
                                     <AcademyLink />
